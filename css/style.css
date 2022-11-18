@@ -1,0 +1,104 @@
+h1 {
+  text-align: center;
+  color: black;
+}
+p {
+  font-size: 1.5rem;
+}
+
+/*---------------------------- Título -------------------------*/
+#title {
+  text-align: center;
+}
+
+#intro {
+  margin: 3rem;
+}
+
+.title-hello {
+  padding: 5.5rem;
+  font-size: 80px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+  background-image: url(../images/gif\ tecnologia.gif);
+}
+
+.img-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin: 2rem;
+}
+/*---------------------------- Habilidades -------------------------*/
+#skills {
+  padding: 2.5rem 2rem 0;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 12, 110, 1) 30%,
+    rgba(2, 154, 185, 1) 100%
+  );
+}
+
+.colored-title {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#carouselExampleCaptions {
+  text-align: center;
+}
+.carousel-img {
+  width: 200px;
+  height: 200px;
+  /*margin-left: 34rem;*/
+  border-radius: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.list-group-item {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.skills-full-stack {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.fs-list li {
+  display: inline-block;
+  /*list-style-type: disc;*/
+}
+
+/*---------------------------- Sobre Mim -------------------------*/
+#about-me {
+  padding: 2.5rem 2rem 4.5rem;
+  text-align: left;
+}
+
+/*---------------------------- Contato -------------------------*/
+#contact {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 12, 110, 1) 30%,
+    rgba(2, 154, 185, 1) 100%
+  );
+  padding: 2.5rem;
+  color: white;
+}
+/*---------------------------- Footer -------------------------*/
+
+footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+a {
+  text-decoration: none;
+}

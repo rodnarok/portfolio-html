@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Rodolfo Lima</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#title">Inicio </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skills"
+                >Habilidades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">Sobre Mim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contato
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Email</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">GitHub</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <section id="title">
+      <div>
+        <h2 class="title-hello">Olá Mundo!</h2>
+        <div id="intro">
+          <img
+            id="perfil"
+            class="img-perfil"
+            src="images/20220926_163610.jpg"
+            alt="Minha foto"
+          />
+          <h1>Meu nome é Rodolfo Lima</h1>
+          <p>Sou formado em Análise e Desenvolvimento de Sistemas</p>
+          <p>Iniciante na área de desenvolvimento web Full-Stack</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h1 class="colored-title">Minhas habilidades</h1>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="images/JavaScript-logo.png"
+              class="carousel-img"
+              alt="js icon"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>JavaScript</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="images/mongodb (2).png"
+              class="carousel-img"
+              alt="mongoDB icon"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MongoDB</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="images/React-icon.png"
+              class="carousel-img"
+              alt="react icon"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>React</h5>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="images/Bootstrap_logo.png"
+              class="carousel-img"
+              alt="react icon"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bootstrap</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+
+      <div>
+        <div class="skills-full-stack">
+          <h3>Full-Stack</h3>
+          <ul class="fs-list">
+            <li><p>HTML -</p></li>
+            <li><p>CSS -</p></li>
+            <li><p>Java -</p></li>
+            <li><p>C++ -</p></li>
+            <li><p>PHP -</p></li>
+            <li><p>SQL -</p></li>
+            <li><p>Bootstrap -</p></li>
+            <li><p>Node.js -</p></li>
+            <li><p>Javascript -</p></li>
+            <li><p>jQuery -</p></li>
+            <li><p>MongoDB -</p></li>
+            <li><p>React</p></li>
+          </ul>
+        </div>
+      </div>
+
+      <p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="true"
+          aria-controls="collapseExample"
+        >
+          Mais Habilidades
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <p>Em breve:</p>
+          <ul>
+            <li>Android 30%</li>
+            <li>Inteligência Artificial</li>
+            <li>Data Science</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- complemento -->
+    <section></section>
+
+    <!-- About Me -->
+    <section id="about-me">
+      <div>
+        <h1>Sobre Mim</h1>
+
+        <p>Eu me dou bem com outras pessoas</p>
+        <p>
+          Tenho facilidade para aprender coisas novas, principalmente na pratica
+        </p>
+        <p>
+          Gosto muito de tecnologia, principalmente coisas que envolvem
+          inteligência artificial
+        </p>
+        <p>
+          Gosto de assistir filmes e séries de ficção científica, de assistir
+          também lançamentos de foguete principalmente os da SpaceX
+        </p>
+        <p>Faço exercícios diariamente</p>
+      </div>
+    </section>
+
+    <!-- Contact-->
+    <section id="contact">
+      <h1 class="colored-title">Contato</h1>
+      <p>Email para contato: rodolfo.lima.dev@gmail.com</p>
+      <p>
+        Perfil do LinkedIn: https://www.linkedin.com/in/rodolfo-lima-ab948086/
+      </p>
+      <p>perfil GitHub: https://github.com/rodnarok/</p>
+    </section>
+  </body>
+
+  <footer>
+    <a href="#perfil">Rodolfo Lima</a>
+  </footer>
+</html>
