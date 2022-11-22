@@ -28,7 +28,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#title">Inicio </a>
         <button
@@ -63,11 +63,18 @@
                 Contato
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Email</a></li>
-                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.linkedin.com/in/rodolfo-lima-ab948086/"
+                    >LinkedIn</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">GitHub</a>
+                  <a class="dropdown-item" href="https://github.com/rodnarok/"
+                    >GitHub</a
+                  >
                 </li>
               </ul>
             </li>
@@ -80,16 +87,21 @@
     <section id="title">
       <div>
         <h2 class="title-hello">Olá Mundo!</h2>
-        <div id="intro">
-          <img
-            id="perfil"
-            class="img-perfil"
-            src="images/20220926_163610.jpg"
-            alt="Minha foto"
-          />
-          <h1>Meu nome é Rodolfo Lima</h1>
-          <p>Sou formado em Análise e Desenvolvimento de Sistemas</p>
-          <p>Iniciante na área de desenvolvimento web Full-Stack</p>
+        <div class="intro-brick">
+          <div id="intro">
+            <img
+              id="perfil"
+              class="img-perfil"
+              src="images/20220926_163610.jpg"
+              alt="Minha foto"
+            />
+            <h1>Meu nome é Rodolfo Lima</h1>
+            <p>Sou formado em Análise e Desenvolvimento de Sistemas</p>
+            <p>Iniciante na área de desenvolvimento web Full-Stack</p>
+          </div>
+          <!--<div class="intro-img">
+            <img src="images/Ilustração.svg" alt="Ilustração" />
+          </div> -->
         </div>
       </div>
     </section>
@@ -242,7 +254,7 @@
 
     <!-- About Me -->
     <section id="about-me">
-      <div>
+      <div class="about-div">
         <h1>Sobre Mim</h1>
 
         <p>Eu me dou bem com outras pessoas</p>
@@ -258,6 +270,9 @@
           também lançamentos de foguete principalmente os da SpaceX
         </p>
         <p>Faço exercícios diariamente</p>
+      </div>
+      <div class="about-img">
+        <img src="images/Foguete.svg" alt="Foguete" />
       </div>
     </section>
 
