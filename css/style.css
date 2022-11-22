@@ -7,8 +7,8 @@ p {
 }
 .navbar {
   color: white;
-  max-width: 1600px;
-  margin: auto;
+  /* max-width: 1600px;
+  margin: auto; */
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -18,10 +18,10 @@ p {
   );
 }
 
-body {
+/* body {
   max-width: 1600px;
   margin: auto;
-}
+} */
 
 /*---------------------------- Título -------------------------*/
 #title {
@@ -147,4 +147,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .about-img {
+    width: 200px;
+  }
 }
